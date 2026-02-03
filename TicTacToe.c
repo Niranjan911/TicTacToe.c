@@ -88,6 +88,7 @@ if(wincheck(board))
 if(moves == 9)
 {
 	printboard(board);
+	printf("\n");
 	printf("The match is a DRAW!\n");
 	break;
 }
@@ -109,3 +110,4 @@ else
 	
 	
    }
+
