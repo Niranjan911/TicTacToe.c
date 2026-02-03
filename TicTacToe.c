@@ -58,6 +58,7 @@ char player = 'X';
 while(1)
 {
 printboard(board);
+printf("\n");
 printf("Player %c Enter Your Position (1-9):\n",player);
 scanf("%d",&pos);
 row = (pos-1)/3;
@@ -78,6 +79,7 @@ else
 if(wincheck(board))
 {
 	printboard(board);
+	printf("\n");
 	printf("The player %c has won the MATCH!\n",player);
     
 	break;
